@@ -13,20 +13,6 @@ $wrapper_classes .= ( true === get_theme_mod( 'display_title_and_tagline', true 
 $wrapper_classes .= has_nav_menu( 'primary' ) ? ' has-menu' : '';
 ?>
 
-<section class="upper-header">
-    <div class="wrapper">
-        <p>
-                <img src="<?= get_home_url() . '/wp-content/themes/twentytwentyone-child/assets/images/pictos/email-picto.png'; ?>" alt="Téléphone pictogramme">
-            <a href="mailto:contact@centreauto87.fr" target="_blanks">
-                contact@centreauto87.fr
-            </a>
-        </p>
-        <p>
-            <img src="<?= get_home_url() . '/wp-content/themes/twentytwentyone-child/assets/images/pictos/phone-picto.png'; ?>" alt="Email pictogramme"><a href="tel:+33645450198">06 45 45 01 98</a> • <a href="tel:+33667427139">06 67 42 71 39</a>
-        </p>
-    </div>
-</section>
-
 <header>
     <div class="wrapper">
         <div class="menu-wrapper">
@@ -40,17 +26,18 @@ $wrapper_classes .= has_nav_menu( 'primary' ) ? ' has-menu' : '';
             </a>
 
             <div class="menu-container">
-                <?php wp_nav_menu(); ?>
+            <?php
+                wp_nav_menu([
+                    'theme_location' => 'primary',
+                    'menu_id' => 'menu-header'
+                ]);
+            ?>
             </div>
-
-<!--            <div class="mobile-only menu-burger-container">-->
-                <button class="mobile-only menu-burger">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </button>
-<!--            </div>-->
-
+            <button class="mobile-only menu-burger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
         </div>
     </div>
 </header>

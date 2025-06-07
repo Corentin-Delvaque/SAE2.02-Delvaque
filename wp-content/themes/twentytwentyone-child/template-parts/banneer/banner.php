@@ -19,11 +19,11 @@
     <?php
 
     if (is_archive()) {
-        $banner_img = get_home_url() . "/wp-content/themes/twentytwentyone-child/assets/images/photo/car-interior-5.jpg";
+        $banner_img = get_home_url() . "/wp-content/themes/twentytwentyone-child/assets/images/photo/travailleur-faisant-exercice.png";
     } elseif (get_the_post_thumbnail_url()) {
         $banner_img = get_the_post_thumbnail_url(get_the_ID());
     } else {
-        $banner_img = get_home_url() . "/wp-content/themes/twentytwentyone-child/assets/images/photo/forest-road-crop.jpg";
+        $banner_img = get_home_url() . "/wp-content/themes/twentytwentyone-child/assets/images/photo/travailleur-faisant-exercice.png";
     }
 
     ?>
@@ -32,14 +32,14 @@
 
     <div class="wrapper">
         <?php if (is_archive()) : ?>
-            <h1>Nos voitures</h1>
+            <h1 class="banner-title"><span class="highlight">Nos voitures</span></h1>
         <?php elseif (is_front_page()) : ?>
-            <h1><?= get_bloginfo('name'); ?></h1>
-            <h2><?= get_bloginfo('description'); ?></h2>
+            <h1 class="banner-title"><span class="highlight"><?= get_bloginfo('name'); ?></span></h1>
+            <h2 class="banner-subtitle"><span class="highlight"><?= get_bloginfo('description'); ?></span></h2>
         <?php elseif (is_404()) : ?>
-            <h1>Page introuvable</h1>
+            <h1 class="banner-title"><span class="highlight">Page introuvable</span></h1>
         <?php else : ?>
-            <h1><?= get_the_title(); ?></h1>
+            <h1 class="banner-title"><span class="highlight"><?= get_the_title(); ?></span></h1>
         <?php endif; ?>
     </div>
 </section>

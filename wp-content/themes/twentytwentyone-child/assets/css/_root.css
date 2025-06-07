@@ -1,6 +1,9 @@
+@import url("https://fonts.cdnfonts.com/css/chronicle-display");
+
 :root {
   --clr-white: #ffffff;
   --clr-black: #000000;
+  --clr-background: #eeeae5;
   --clr-very-dark-grey: #151515;
   --clr-dark-grey: #4e4e4e;
   --clr-dark-yellow: #6a4a00;
@@ -10,8 +13,12 @@
   --clr-orange: #ec5a13;
   --clr-dark-green: #005e39;
   --clr-green: #008952;
+  --clr-blue: #041297;
+  --clr-blue-transparent: #04129726;
   --clr-very-light-red: #ffc4c8;
   --clr-transparent: #00000000;
+  --clr-semi-transparent: rgba(0, 0, 0, 0.5);
+  --clr-semi-transparent-white: rgba(255, 255, 255, 0.75);
   --clr-light-grey: hsl(0, 0%, 90%);
   --clr-very-light-grey: hsl(0, 0%, 95%);
   --clr-grey: hsl(0, 0%, 50%);
@@ -21,16 +28,17 @@
   --fs-small-title: 18px;
   --fs-body: 16px;
   --fs-accent: 12px;
-  --ff-primary: "Gabarito", Arial, sans-serif;
+  --ff-primary: "Chronicle Display", "Chronicle", "Chronicle Text", Georgia,
+    serif;
   /*--ff-secondary: Roboto, sans-serif;*/
   --ff-secondary: "Outfit", Roboto, sans-serif;
   /*--ff-secondary: "Manrope", Roboto, sans-serif;*/
   /*--ff-secondary: "Onest", Roboto, sans-serif;*/
   /*--bs-primary: 0 5px 10px 0 rgba(0,0,0,.05);*/
   /*--bs-primary: 0 10px 50px 0 rgba(0,0,0,.1);*/
-  --bs-primary: 0 10px 30px 0 rgba(0,0,0,.05);
-  --bs-secondary: 0 10px 30px 0 rgba(0,0,0,.05);
-  --tr-primary: .4s cubic-bezier(.645,.045,.355,1);
+  --bs-primary: 0 10px 30px 0 rgba(0, 0, 0, 0.05);
+  --bs-secondary: 0 10px 30px 0 rgba(0, 0, 0, 0.05);
+  --tr-primary: 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 
 @media (max-width: 768px) {

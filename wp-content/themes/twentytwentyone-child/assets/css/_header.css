@@ -6,20 +6,18 @@ header {
   position: sticky;
   top: 0;
   z-index: 2;
-  background-color: var(--clr-white);
-  transition: box-shadow .4s, transform .4s;
+  background-color: var(--clr-background);
+  transition: box-shadow 0.4s, transform 0.4s;
   box-shadow: var(--bs-primary);
-  /*border-bottom: 2px solid var(--clr-light-grey);*/
 }
 
 header.hide {
-    /*transform: translateY(-100%);*/
-    transform: translateY(calc(-100% - 1px));
-    box-shadow: 0 0 0 transparent;
+  transform: translateY(calc(-100% - 1px));
+  box-shadow: 0 0 0 transparent;
 }
 
 .upper-header {
-  background-color: var(--clr-red);
+  background-color: var(--clr-blue);
   padding: 10px 0;
   justify-content: flex-end;
   gap: 50px;
@@ -38,11 +36,11 @@ header.hide {
   gap: 10px;
 }
 
-.upper-header p, 
+.upper-header p,
 .upper-header a {
   font-size: var(--fs-accent);
   font-weight: 500;
-  color: var(--clr-white);
+  color: var(--clr-blue);
   text-transform: uppercase;
 }
 
@@ -56,16 +54,18 @@ header.hide {
   font-size: var(--fs-body);
   font-weight: 500;
   color: var(--clr-black);
-  text-transform: uppercase;
+  text-transform: none;
   text-align: center;
 }
 
 #menu-header li a {
+  color: var(--clr-blue);
   transition: var(--tr-primary);
 }
+
 #menu-header li.current-menu-item a,
 #menu-header li:hover a {
-  color: var(--clr-red);
+  color: var(--clr-blue);
 }
 
 #menu-header .menu-item a:focus {
@@ -111,7 +111,7 @@ header.hide {
 .menu-burger span {
   display: block;
   height: 2px;
-  background-color: var(--clr-black);
+  background-color: var(--clr-blue);
   width: 20px;
   transition: var(--tr-primary);
   position: absolute;
@@ -139,7 +139,7 @@ header.hide {
 }
 
 .menu-burger:hover span {
-  background-color: var(--clr-red);
+  background-color: var(--clr-blue);
 }
 
 .website-infos {
@@ -157,15 +157,15 @@ header.hide {
 .website-title {
   font-size: var(--fs-title);
   font-weight: 700;
-  color: var(--clr-black);
-  text-transform: uppercase;
+  color: var(--clr-blue);
+  text-transform: none;
 }
 
 .website-baseline {
   font-size: var(--fs-accent);
   font-weight: 500;
-  color: var(--clr-red);
-  text-transform: uppercase;
+  color: var(--clr-blue);
+  text-transform: none;
 }
 
 .right-website-infos {
