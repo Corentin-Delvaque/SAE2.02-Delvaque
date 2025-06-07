@@ -18,7 +18,7 @@ Template Name: Accueil
             </div>
             <div class="right-section">
                 <div class="image-decoration">
-                    <img src="<?= get_home_url() . '/wp-content/themes/twentytwentyone-child/assets/images/photo/car-drive.jpg'; ?>" alt="Conduite de voiture avec volant">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ?si=VmxTCtrMh3Ah5krw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 </div>
             </div>
         </div>

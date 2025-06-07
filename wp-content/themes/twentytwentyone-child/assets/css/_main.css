@@ -148,10 +148,9 @@ section {
   right: 30px;
 }
 
-.image-decoration img {
+.image-decoration iframe {
   position: relative;
-  height: 100%;
-  max-width: 500px;
+  min-width: auto;
   object-fit: cover;
 }
 
