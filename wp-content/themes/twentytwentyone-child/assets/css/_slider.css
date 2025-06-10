@@ -22,7 +22,8 @@
   object-fit: cover;
 }
 
-.swiper.single .swiper-button-next, .swiper.single .swiper-button-prev {
+.swiper.single .swiper-button-next,
+.swiper.single .swiper-button-prev {
   bottom: 0;
   top: unset;
   right: unset;
@@ -33,13 +34,15 @@
   left: 60px;
 }
 
-.swiper .swiper-button-next, .swiper .swiper-button-prev {
+.swiper .swiper-button-next,
+.swiper .swiper-button-prev {
   height: 60px;
   width: 60px;
   background-color: var(--clr-white);
 }
 
-.swiper .swiper-button-next:after, .swiper .swiper-button-prev:after {
+.swiper .swiper-button-next:after,
+.swiper .swiper-button-prev:after {
   color: var(--clr-black);
   font-weight: bold;
   font-size: var(--fs-accent);
@@ -79,19 +82,18 @@
   overflow: visible;
   gap: 20px;
   box-shadow: var(--bs-primary);
-  border-left: 3px solid var(--clr-red);
+  border-left: 3px solid var(--clr-blue);
 }
 
 .swiper.testimonials .swiper-slide:not(.swiper-slide-active) {
 }
-
 
 .swiper.testimonials .swiper-slide .profile-picture {
   display: flex;
   justify-content: center;
   align-items: center;
   aspect-ratio: 1/1;
-  background-color: var(--clr-red);
+  background-color: var(--clr-blue);
   border-radius: 50%;
   min-height: 65px;
 }
@@ -100,12 +102,10 @@
   object-fit: contain;
 }
 
-
 .swiper.testimonials .swiper-slide .author {
   font-size: var(--fs-small-title);
   font-weight: 500;
   font-family: var(--ff-primary);
   text-transform: uppercase;
-  color: var(--clr-red);
+  color: var(--clr-blue);
 }
-

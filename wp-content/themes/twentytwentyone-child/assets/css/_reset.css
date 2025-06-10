@@ -7,7 +7,7 @@ body {
 }
 
 ::selection {
-  background-color: var(--clr-red);
+  background-color: var(--clr-blue);
   color: var(--clr-white);
 }
 

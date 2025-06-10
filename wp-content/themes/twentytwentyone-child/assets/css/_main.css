@@ -114,7 +114,7 @@ section {
 }
 
 .right-section {
-  min-width: 33%;
+  min-width: 40%;
 }
 
 .image-decoration-section .left-section p:first-of-type {
@@ -151,7 +151,13 @@ section {
 
 .image-decoration iframe {
   position: relative;
-  min-width: auto;
+  max-width: 500px;
+  object-fit: cover;
+}
+
+.image-decoration img {
+  position: relative;
+  max-width: 500px;
   object-fit: cover;
 }
 
@@ -162,10 +168,6 @@ section {
 .image-decoration-section.leboncoin-section .image-decoration::before {
   background-color: var(--clr-blue);
 }
-
-/*#content .image-decoration-section.leboncoin-section .button-red.button-primary {*/
-/*    background-color: var(--clr-orange);*/
-/*}*/
 
 .numbers-section {
   padding-top: unset;
@@ -257,7 +259,6 @@ section {
   gap: 150px;
   position: relative;
   z-index: 1;
-  background-image: url("../images/photo/carpark-4.jpg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -273,12 +274,10 @@ section {
   top: 0;
   width: 100%;
   height: 100%;
-  background-color: var(--clr-black);
   opacity: 0.75;
 }
 
 .partner-section {
-  background-image: url("../images/photo/limoges-csp-stadium.jpg");
 }
 
 .partner-section img {
@@ -319,7 +318,7 @@ section {
 .action-section p,
 .partner-section h2,
 .partner-section p {
-  color: var(--clr-white);
+  color: var(--clr-blue);
 }
 
 .partner-section h2 {
@@ -367,7 +366,7 @@ section {
 .page-section h2 {
   margin-bottom: 50px;
   font-size: var(--fs-very-big-title);
-  color: var(--clr-red);
+  color: var(--clr-blue);
 }
 
 .error404 main p {

@@ -25,7 +25,7 @@ Template Name: Accueil
     </div>
 </section>
 
-<section class="image-decoration-section image-decoration-left leboncoin-section">
+<section class="image-decoration-section image-decoration-left">
     <div class="wrapper">
         <div class="page">
             <div class="left-section">
@@ -34,16 +34,12 @@ Template Name: Accueil
                 <p>Trouver votre prochain véhicule parmi notre inventaire de qualité, mis à jour régulièrement. Centre auto 87 vous offre les meilleures options à Limoges et ses environs.</p>
                 <p>Ne manquez pas nos offres exclusives !</p>
                 
-                <!--<p>Que vous cherchiez à acheter une nouvelle voiture ou à en apprendre davantage sur les dernières tendances de l'industrie, Centre Auto 87 est votre partenaire de confiance. </p>-->
-                <!--<p>Nous mettons tout en œuvre pour offrir un service exceptionnel, des offres spéciales avantageuses, et des véhicules éco-responsables pour une conduite de qualité.</p>-->
-                <!--<p>Explorez notre gamme de véhicules et découvrez pourquoi Centre auto 87 est le choix incontournable pour vos besoins automobiles à Limoges !</p>-->
-                
-                <a href="https://www.leboncoin.fr/boutique/6021088/centre_auto_87.htm" target="_blank" class="button-primary button-orange">Aller sur leboncoin</a>
+                <a href="https://www.leboncoin.fr/boutique/6021088/centre_auto_87.htm" target="_blank" class="button-primary button-blue">Aller sur leboncoin</a>
             </div>
-            <div class="right-section image-decoration">
-                <!--<div class="image-decoration">-->
-                    <img src="<?= get_home_url() . '/wp-content/themes/twentytwentyone-child/assets/images/photo/car-keys-3.jpg'; ?>" alt="Car keys decoration">
-                <!--</div>-->
+            <div class="right-section">
+                <div class="image-decoration">
+                    <img src="<?= get_home_url() . '/wp-content/themes/twentytwentyone-child/assets/images/photo/BD.png'; ?>" alt="Car keys decoration">
+                </div>
             </div>
         </div>
     </div>
@@ -52,16 +48,16 @@ Template Name: Accueil
 <section class="partner-section">
     <div class="wrapper">
         <div class="left-area">
-            <img src="<?= get_home_url() . '/wp-content/themes/twentytwentyone-child/assets/images/logo/limoges-csp-logo.png'; ?>" alt="Stade CSP Limoges">
+            <img src="<?= get_home_url() . '/wp-content/themes/twentytwentyone-child/assets/images/logo/logo-Hemera.svg'; ?>" alt="Stade CSP Limoges">
 
         </div>
         <div class="right-area">
-            <h2 class="title">
+            <h2 class="title-decoration">
                 Partenaire officiel du <span>Limoges&nbsp;CSP</span>
             </h2>
             <p>Le Centre auto 87 est fier d'être le partenaire officiel du prestigieux club de basket du CSP Limoges.</p>
             <p>Unis par la passion du sport et de la performance, nous soutenons l'équipe dans ses défis, offrant qualité et engagement à nos clients, tout comme le CSP incarne l'excellence sur le terrain.</p>
-            <a class="button-primary button-big button-green" href="https://www.limogescsp.com/" target="_blank">
+            <a class="button-primary button-big button-blue" href="https://www.limogescsp.com/" target="_blank">
                 Visiter le site
             </a>
 

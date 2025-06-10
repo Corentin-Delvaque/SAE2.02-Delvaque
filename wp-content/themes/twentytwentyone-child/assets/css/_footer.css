@@ -20,12 +20,9 @@ footer .website-infos-section {
   gap: 20px;
 }
 
-footer .website-infos .website-title, footer .website-infos .website-baseline {
+footer .website-infos .website-title,
+footer .website-infos .website-baseline {
   color: var(--clr-white);
-}
-
-footer .website-infos .website-logo {
-  filter: invert(1) hue-rotate(180deg);
 }
 
 footer .legals-section-footer {
@@ -53,7 +50,6 @@ footer .legals-links a {
   /*color: var(--clr-white);*/
   /*transition: var(--tr-primary);*/
   text-align: center;
-
 }
 
 footer a:hover,

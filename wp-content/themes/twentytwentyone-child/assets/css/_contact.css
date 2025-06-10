@@ -14,7 +14,7 @@
   flex-direction: column;
   align-items: center;
   /*gap: 30px;*/
-  background-color: var(--clr-red);
+  background-color: var(--clr-blue);
   color: var(--clr-white);
   padding: 50px;
   font-family: var(--ff-primary);
@@ -82,11 +82,18 @@
   letter-spacing: 0.05em;
 }
 
-#wpforms-120 input[type=text]::placeholder, #wpforms-120 input[type=email]::placeholder, #wpforms-120 input[type=tel]::placeholder, #wpforms-120 textarea::placeholder, #wpforms-120 label.wpforms-error, #wpforms-120 em.wpforms-error, #wpforms-120 a {
+#wpforms-120 input[type="text"]::placeholder,
+#wpforms-120 input[type="email"]::placeholder,
+#wpforms-120 input[type="tel"]::placeholder,
+#wpforms-120 textarea::placeholder,
+#wpforms-120 label.wpforms-error,
+#wpforms-120 em.wpforms-error,
+#wpforms-120 a {
   color: var(--clr-white);
 }
 
-#wpforms-120 input, #wpforms-120 textarea {
+#wpforms-120 input,
+#wpforms-120 textarea {
   background-color: var(--clr-very-dark-grey);
   border: 2px solid var(--clr-dark-grey);
   color: var(--clr-white);
@@ -94,11 +101,18 @@
   resize: vertical;
 }
 
-#wpforms-120 input.wpforms-error, #wpforms-120 input.user-invalid, #wpforms-120 textarea.wpforms-error, #wpforms-120 textarea.user-invalid, #wpforms-120 select.wpforms-error, #wpforms-120 select.user-invalid {
-  box-shadow: 0 0 0 2px var(--clr-red);
+#wpforms-120 input.wpforms-error,
+#wpforms-120 input.user-invalid,
+#wpforms-120 textarea.wpforms-error,
+#wpforms-120 textarea.user-invalid,
+#wpforms-120 select.wpforms-error,
+#wpforms-120 select.user-invalid {
+  box-shadow: 0 0 0 2px var(--clr-blue);
 }
 
-#wpforms-120 input:focus, #wpforms-120 select:focus, #wpforms-120 textarea:focus {
+#wpforms-120 input:focus,
+#wpforms-120 select:focus,
+#wpforms-120 textarea:focus {
   box-shadow: 0 0 0 2px var(--clr-white);
 }
 
@@ -114,6 +128,11 @@
   margin-bottom: -10px;
 }
 
-#wpforms-120 input[type=submit]:hover, #wpforms-120 input[type=submit]:active, #wpforms-120 button[type=submit]:hover, #wpforms-120 button[type=submit]:active, #wpforms-120 .wpforms-page-button:hover, #wpforms-120 .wpforms-page-button:active {
+#wpforms-120 input[type="submit"]:hover,
+#wpforms-120 input[type="submit"]:active,
+#wpforms-120 button[type="submit"]:hover,
+#wpforms-120 button[type="submit"]:active,
+#wpforms-120 .wpforms-page-button:hover,
+#wpforms-120 .wpforms-page-button:active {
   background: unset;
 }
