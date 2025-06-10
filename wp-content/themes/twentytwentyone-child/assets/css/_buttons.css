@@ -1,4 +1,8 @@
-#content .button-primary, #content .button-secondary, #content .button-tertiary, .pagination .page-numbers, .contact-form-section .wpforms-submit-container .wpforms-submit {
+#content .button-primary,
+#content .button-secondary,
+#content .button-tertiary,
+.pagination .page-numbers,
+.contact-form-section .wpforms-submit-container .wpforms-submit {
   display: inline-flex;
   padding: 10px 20px;
   border-width: 2px;
@@ -11,14 +15,16 @@
   transition: var(--tr-primary);
 }
 
-#content .button-red.button-primary:hover, .contact-form-section #wpforms-120 .wpforms-submit:hover {
+#content .button-blue.button-primary:hover,
+.contact-form-section #wpforms-120 .wpforms-submit:hover {
   transform: translate(5px, -5px);
   background-color: var(--clr-white);
-  color: var(--clr-red);
-  box-shadow: -5px 5px 0 var(--clr-red);
+  color: var(--clr-blue);
+  box-shadow: -5px 5px 0 var(--clr-blue);
 }
 
-.pagination .page-numbers.prev:hover, .pagination .page-numbers.next:hover {
+.pagination .page-numbers.prev:hover,
+.pagination .page-numbers.next:hover {
   transform: translate(5px, -5px);
   background-color: var(--clr-white);
   color: var(--clr-black);
@@ -35,10 +41,14 @@
   font-size: var(--fs-accent);
 }
 
-#content .button-red.button-primary, .pagination .page-numbers.prev, .pagination .page-numbers.next,  .pagination .page-numbers.current, .contact-form-section #wpforms-120 .wpforms-submit {
+#content .button-blue.button-primary,
+.pagination .page-numbers.prev,
+.pagination .page-numbers.next,
+.pagination .page-numbers.current,
+.contact-form-section #wpforms-120 .wpforms-submit {
   border-color: var(--clr-transparent);
   color: var(--clr-white);
-  background-color: var(--clr-red);
+  background-color: var(--clr-blue);
 }
 
 #content .button-orange.button-primary {
@@ -67,30 +77,30 @@
   box-shadow: -5px 5px 0 var(--clr-green);
 }
 
-.pagination .page-numbers.prev, .pagination .page-numbers.next,  .pagination .page-numbers.current {
+.pagination .page-numbers.prev,
+.pagination .page-numbers.next,
+.pagination .page-numbers.current {
   background-color: var(--clr-black);
 }
 
-#content .button-red.button-secondary {
+#content .button-blue.button-secondary {
   background-color: var(--clr-transparent);
-  border-color: var(--clr-red);
-  color: var(--clr-red);
+  border-color: var(--clr-blue);
+  color: var(--clr-blue);
 }
 
 .page-numbers:not(.dots):hover {
   border-color: 2px solid var(--clr-black);
 }
 
-#content .button-red.button-tertiary {
-  color: var(--clr-red);
+#content .button-blue.button-tertiary {
+  color: var(--clr-blue);
   background-color: var(--clr-transparent);
   border-color: var(--clr-transparent);
 }
 
 .pagination .page-numbers {
-
 }
 
 .pagination .page-numbers {
-
 }

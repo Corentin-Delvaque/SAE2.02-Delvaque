@@ -16,8 +16,6 @@
 		</div>
 	</div>
 
-	<?php get_template_part( 'template-parts/footer/footer-widgets' ); ?>
-
 <footer>
     <div class="website-infos-section">
         <div class="wrapper">

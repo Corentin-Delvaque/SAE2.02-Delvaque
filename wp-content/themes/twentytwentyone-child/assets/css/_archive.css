@@ -1,4 +1,3 @@
-
 .cars-cards {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -32,7 +31,7 @@
   object-fit: cover;
   position: absolute;
   transition: 1.5s;
-  filter: saturate(.5);
+  filter: saturate(0.5);
 }
 
 .cars-card::before {
@@ -73,9 +72,8 @@
 }
 
 .cars-card:hover .tags {
-transform: translateY(-120px);
+  transform: translateY(-120px);
 }
-
 
 .cars-card .tags {
   position: absolute;
@@ -116,12 +114,13 @@ transform: translateY(-120px);
   gap: 10px 20px;
 }
 
-#content .cars-card:hover .button-red.button-primary {
+#content .cars-card:hover .button-blue.button-primary {
   background-color: var(--clr-white);
-  color: var(--clr-red);
+  color: var(--clr-blue);
 }
 
-.pagination, .comments-pagination {
+.pagination,
+.comments-pagination {
   border: unset;
   padding-top: unset;
   display: flex;
@@ -155,5 +154,4 @@ transform: translateY(-120px);
   width: 200px;
   height: 100px;
   object-fit: contain;
-
 }
