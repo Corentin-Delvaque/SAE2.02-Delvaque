@@ -156,10 +156,3 @@
 .single-container-images {
   background-color: var(--clr-black);
 }
-
-.cars-section {
-  background-color: var(--clr-very-light-grey);
-  flex-direction: column;
-  display: flex;
-  gap: 80px;
-}

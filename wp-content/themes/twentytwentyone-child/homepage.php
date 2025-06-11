@@ -10,10 +10,9 @@ Template Name: Accueil
     <div class="wrapper">
         <div class="page">
             <div class="left-section">
-                <h2 class="title-decoration">Trouvez la voiture idéale à deux pas de Limoges !</h2>
-                <p>Notre concession automobile propose une vaste sélection de voitures d'occasion de marques françaises et internationales.</p>
-                <p>Chez nous, vous trouverez le véhicule parfait pour répondre à vos besoins et à votre budget !</p>
-                <p>Basés à Limoges, nous sommes fiers de servir la communauté locale depuis plus de 5 ans. En tant que passionnés de l'industrie automobile, notre mission est de vous offrir des véhicules de qualité, alliant performance, fiabilité et économie. Découvrez pourquoi tant de particuliers et professionnels font confiance à notre expertise en matière de voitures d'occasion.</p>
+                <h2>Découvrez CoMove en vidéo !</h2>
+                <p>Comment bouger plus au bureau, sans matériel ni contraintes ?</p>
+                <p>Cette vidéo vous présente CoMove, l’application pensée pour transformer vos pauses en moments d’énergie, de lien et de bien-être.</p>
                 <a href="/a-propos" class="button-primary button-blue">En savoir plus</a>
             </div>
             <div class="right-section">
@@ -25,14 +24,16 @@ Template Name: Accueil
     </div>
 </section>
 
+<div class="section-separator"></div>
+
 <section class="image-decoration-section image-decoration-left">
     <div class="wrapper">
         <div class="page">
             <div class="left-section">
-                <h2>Découvrez toutes nos voitures disponibles !</h2>
-                <p>Explorez notre large sélection de voitures neuves et d'occasion sur leboncoin.</p>
-                <p>Trouver votre prochain véhicule parmi notre inventaire de qualité, mis à jour régulièrement. Centre auto 87 vous offre les meilleures options à Limoges et ses environs.</p>
-                <p>Ne manquez pas nos offres exclusives !</p>
+                <h2>Découvrez notre nouvelle initiative pour le bien-être au travail !</h2>
+                <p>Tech’Addict présente CoMove, une application mobile innovante pour lutter contre la sédentarité au bureau.</p>
+                <p>Pensée pour les professionnels, cette solution transforme vos pauses en moments de mouvement, de cohésion et de bonne humeur.</p>
+                <p>Explorez cette nouveauté dans notre communiqué de presse et découvrez comment 15 minutes par jour peuvent faire toute la différence.</p>
                 
                 <a href="<?= get_home_url() . '/wp-content/themes/twentytwentyone-child/assets/images/fichier/communique_de_presse.pdf'; ?>" target="_blank" class="button-primary button-blue">communique de presse</a>
             </div>
@@ -45,6 +46,12 @@ Template Name: Accueil
     </div>
 </section>
 
+[carousel_slide id="37"]
+
+<?php echo do_shortcode( '[carousel_slide id="37"]' ); ?>
+
+<div class="section-separator"></div>
+
 <section class="partner-section">
     <div class="wrapper">
         <div class="left-area">
@@ -53,11 +60,12 @@ Template Name: Accueil
         </div>
         <div class="right-area">
             <h2 class="title-decoration">
-                Partenaire officiel du <span>Limoges&nbsp;CSP</span>
+                Partenaire officiel de <span>Héméra</span>
             </h2>
-            <p>Le Centre auto 87 est fier d'être le partenaire officiel du prestigieux club de basket du CSP Limoges.</p>
-            <p>Unis par la passion du sport et de la performance, nous soutenons l'équipe dans ses défis, offrant qualité et engagement à nos clients, tout comme le CSP incarne l'excellence sur le terrain.</p>
-            <a class="button-primary button-big button-blue" href="https://www.limogescsp.com/" target="_blank">
+            <p>Tech’Addict est fier d’établir un partenariat avec Héméra, un acteur majeur de l’écosystème entrepreneurial et du coworking en France.</p>
+            <p>Unis par une vision commune du bien-être au travail et de l’innovation collaborative, nous expérimentons conjointement de nouvelles façons d’intégrer la technologie au quotidien des professionnels. Héméra offre un contexte idéal pour déployer CoMove, notre application qui favorise le mouvement, le lien social et l’énergie dans les espaces de travail.
+            </p>
+            <a class="button-primary button-big button-blue" href="https://www.hemera.camp" target="_blank">
                 Visiter le site
             </a>
 
