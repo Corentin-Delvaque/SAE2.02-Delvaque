@@ -108,6 +108,12 @@ section {
   flex-direction: row-reverse;
 }
 
+.page-column {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
 .image-decoration-section + .image-decoration-section {
   padding-top: unset;
 }
@@ -123,8 +129,8 @@ section {
 .right-section {
   align-items: center;
   justify-content: center;
-  max-width: 40%;
-  min-width: 40%;
+  max-width: 50%;
+  min-width: 50%;
 }
 
 .image-decoration-section .left-section p:first-of-type {
@@ -374,6 +380,25 @@ section {
   margin-bottom: 50px;
   font-size: var(--fs-very-big-title);
   color: var(--clr-blue);
+}
+
+.carrousel-section {
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.carousel-slider__item {
+  overflow: hidden;
+  border-radius: 25px;
+  border: 2px solid var(--clr-blue);
+}
+
+.swiper-button-prev {
+  border-radius: 50%;
+}
+
+.swiper-button-next {
+  border-radius: 50%;
 }
 
 .error404 main p {

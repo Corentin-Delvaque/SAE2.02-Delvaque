@@ -30,12 +30,12 @@ Template Name: Accueil
     <div class="wrapper">
         <div class="page">
             <div class="left-section">
-                <h2>Découvrez notre nouvelle initiative pour le bien-être au travail !</h2>
+                <h2>Notre nouvelle initiative pour le bien-être au travail !</h2>
                 <p>Tech’Addict présente CoMove, une application mobile innovante pour lutter contre la sédentarité au bureau.</p>
                 <p>Pensée pour les professionnels, cette solution transforme vos pauses en moments de mouvement, de cohésion et de bonne humeur.</p>
                 <p>Explorez cette nouveauté dans notre communiqué de presse et découvrez comment 15 minutes par jour peuvent faire toute la différence.</p>
                 
-                <a href="<?= get_home_url() . '/wp-content/themes/twentytwentyone-child/assets/images/fichier/communique_de_presse.pdf'; ?>" target="_blank" class="button-primary button-blue">communique de presse</a>
+                <a href="<?= get_home_url() . '/wp-content/themes/twentytwentyone-child/assets/images/fichier/communique_de_presse.pdf'; ?>" download target="_blank" class="button-primary button-blue">communique de presse</a>
             </div>
             <div class="right-section">
                 <div class="image-decoration">
@@ -46,9 +46,18 @@ Template Name: Accueil
     </div>
 </section>
 
-[carousel_slide id="37"]
+<div class="section-separator"></div>
 
-<?php echo do_shortcode( '[carousel_slide id="37"]' ); ?>
+<section class="image-decoration-section">
+    <div class="wrapper">
+        <div class="page-column">
+            <div class="left-section">
+                <h2>Jetez un œil à CoMove en action !</h2>
+            </div>
+            <?php echo do_shortcode( '[carousel_slide id="37"]' ); ?>
+        </div>
+    </div>
+</section>
 
 <div class="section-separator"></div>
 
