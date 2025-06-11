@@ -18,33 +18,12 @@ get_header();
             </div>
             <div class="right-section">
                 <div class="image-decoration">
-                    <img src="<?= get_home_url() . '/wp-content/themes/twentytwentyone-child/assets/images/photo/car-keys.jpg'; ?>" alt="Voiture avec clés">
+                    <img src="<?= get_home_url() . '/wp-content/themes/twentytwentyone-child/assets/images/logo/logo-techaddict.png'; ?>" alt="Logo TechAddict">
                 </div>
             </div>
         </div>
     </div>
 </section>
-
-<section class="image-decoration-section image-decoration-left">
-    <div class="wrapper">
-        <div class="page">
-            <div class="left-section">
-                <h2>Une voiture pour chaque besoin</h2>
-                <p>Que vous cherchiez à acheter une nouvelle voiture ou à en apprendre davantage sur les dernières tendances de l'industrie, Centre Auto 87 est votre partenaire de confiance. </p>
-                <p>Nous mettons tout en œuvre pour offrir un service exceptionnel, des offres spéciales avantageuses, et des véhicules éco-responsables pour une conduite de qualité.</p>
-                <p>Explorez notre gamme de véhicules et découvrez pourquoi Centre auto 87 est le choix incontournable pour vos besoins automobiles à Limoges !</p>
-                <a href="/voitures" class="button-primary button-red">Nos voitures</a>
-            </div>
-            <div class="right-section image-decoration">
-                <!--<div class="image-decoration">-->
-                    <img src="<?= get_home_url() . '/wp-content/themes/twentytwentyone-child/assets/images/photo/car-architechture.jpg'; ?>" alt="Car driving decoration">
-                <!--</div>-->
-            </div>
-        </div>
-    </div>
-</section>
-
-<?php include('template-parts/partials/action-section.php'); ?>
 
 <?php
 

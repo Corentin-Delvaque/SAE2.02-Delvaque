@@ -59,7 +59,6 @@ section {
 }
 
 .banner-single .banner-image {
-  /*filter: saturate(0.5) blur(20px);*/
   filter: saturate(0.5) blur(5px);
 }
 
@@ -79,6 +78,7 @@ section {
 }
 
 .banner.homepage {
+  height: 600px;
   padding-top: 300px;
   padding-bottom: 150px;
   background-position: bottom;
@@ -114,6 +114,9 @@ section {
 }
 
 .right-section {
+  align-items: center;
+  justify-content: center;
+  max-width: 40%;
   min-width: 40%;
 }
 
@@ -126,27 +129,22 @@ section {
   color: var(--clr-blue);
   margin-bottom: 30px;
 }
+
 .image-decoration-section .left-section a {
   margin-top: 30px;
 }
 
 .image-decoration {
+  display: flex;
+  justify-content: right;
   position: relative;
+  box-shadow: 30px 30px var(--clr-blue);
 }
 
-.image-decoration::before {
-  content: "";
-  position: absolute;
-  top: 30px;
-  left: 30px;
-  width: 100%;
-  height: 100%;
-  background-color: var(--clr-blue);
-}
-
-.image-decoration-section.image-decoration-left .image-decoration::before {
-  left: unset;
-  right: 30px;
+.image-decoration-left {
+  .image-decoration {
+    box-shadow: -30px 30px var(--clr-blue);
+  }
 }
 
 .image-decoration iframe {
@@ -157,7 +155,8 @@ section {
 
 .image-decoration img {
   position: relative;
-  max-width: 500px;
+  min-width: 100%;
+  max-width: 100%;
   object-fit: cover;
 }
 
@@ -165,7 +164,7 @@ section {
   color: var(--clr-blue);
 }
 
-.image-decoration-section.leboncoin-section .image-decoration::before {
+.image-decoration-section.leboncoin-section {
   background-color: var(--clr-blue);
 }
 
@@ -284,6 +283,7 @@ section {
   max-width: 250px;
   object-fit: contain;
   border: 10px solid var(--clr-white);
+  background-color: var(--clr-white);
   border-radius: 50%;
 }
 

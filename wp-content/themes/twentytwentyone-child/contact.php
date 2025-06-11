@@ -2,44 +2,30 @@
 /*
 Template Name: Contact
 */
-
-get_header();
-
 ?>
+
+<?php get_header(); ?>
 
 <section class="contact-info-section">
     <div class="wrapper">
         <div class="contact-infos">
             <a class="contact-info" href="mailto:contact@centreauto87.fr" target="_blank">
-                <img src="<?= get_home_url() . '/wp-content/themes/twentytwentyone-child/assets/images/pictos/email-picto.png'; ?>" alt="Téléphone">contact@centreauto87.fr
+                <img src="<?= get_home_url() . '/wp-content/themes/twentytwentyone-child/assets/images/pictos/email-picto.png'; ?>" alt="Téléphone">contact@techaddict.fr
             </a>
             <div class="contact-info">
                 <img src="<?= get_home_url() . '/wp-content/themes/twentytwentyone-child/assets/images/pictos/phone-picto.png'; ?>" alt="Email">
-                <a href="tel:+33645450198">06 45 45 01 98</a>
-                <a href="tel:+33667427139">06 67 42 71 39</a>
+                <a href="tel:+33555434355">05 55 43 43 55</a>
             </div>
-            <a class="contact-info" href="https://maps.app.goo.gl/QmA71HxH1XmVj5jW8" target="_blank">
+            <a class="contact-info" href="https://maps.app.goo.gl/PkdczCWdH2p4xcaMA" target="_blank">
                 <img src="<?= get_home_url() . '/wp-content/themes/twentytwentyone-child/assets/images/pictos/location-picto.png'; ?>" alt="Adresse">
-                28 Route de Poitiers <br> 87270 Couzeix
+                12 All. André Maurois <br> 87065 Limoges
             </a>
-        </div>
-    </div>
-</section>
-
-<section class="contact-form-section">
-    <div class="wrapper">
-        <h2 class="title-decoration">Besoin d'un renseignement ? Écrivez-nous !</h2>
-        <div class="form-wrapper">
-            <div class="left-area"></div>
-            <div class="right-area">
-                <?= do_shortcode( '[wpforms id="120" title="false"]' ); ?>
-            </div>
         </div>
     </div>
 </section>
 
 <section id="contact-map">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2777.164549086586!2d1.2365808!3d45.888022!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47fecb89c0e59385%3A0x605d55efbe83e143!2sCentre%20auto%2087!5e0!3m2!1sfr!2sfr!4v1698853379584!5m2!1sfr!2sfr" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2779.7488986973517!2d1.2315844999999999!3d45.836309199999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47fecb41702fc8a5%3A0x60982c91a88a0fdd!2sM%C3%A9tiers%20du%20Multimedia%20et%20de%20l&#39;Internet!5e0!3m2!1sfr!2sfr!4v1749649009409!5m2!1sfr!2sfr" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </section>
 
 <?php

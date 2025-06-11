@@ -7,14 +7,9 @@
         $is_wide = 'wide';
     }
 
-    $is_homepage = '';
-    if (is_front_page()) {
-        $is_homepage = 'homepage';
-    }
-
     ?>
 
-<section class="banner <?= is_single() ? "banner-single" : "" ?> <?= $is_wide; ?> <?= $is_homepage; ?>">
+<section class="banner homepage <?= is_single() ? "banner-single" : "" ?> <?= $is_wide; ?> <?= $is_homepage; ?>">
 
     <?php
 

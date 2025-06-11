@@ -44,8 +44,16 @@ header.hide {
   text-transform: uppercase;
 }
 
-#menu-header {
+.menu ul {
   display: flex;
+  flex-direction: row;
+  padding: unset;
+  gap: 30px;
+}
+
+#menu-header ul {
+  display: flex;
+  flex-direction: row;
   padding: unset;
   gap: 30px;
 }

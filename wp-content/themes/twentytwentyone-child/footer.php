@@ -27,15 +27,15 @@
             </div>
             <div class="right-website-infos">
                 <p><img class="picto" src="<?= get_home_url() . '/wp-content/themes/twentytwentyone-child/assets/images/pictos/location-picto.png'; ?>" alt="Email pictogramme">
-                    <a href="https://maps.app.goo.gl/QmA71HxH1XmVj5jW8" target="_blank">28 Route de Poitiers, 87270 Couzeix</a>
+                    <a href="https://maps.app.goo.gl/PkdczCWdH2p4xcaMA" target="_blank">12 All. André Maurois, 87065 Limoges</a>
                 </p>
                 <p>
-                    <img class="picto" src="<?= get_home_url() . '/wp-content/themes/twentytwentyone-child/assets/images/pictos/email-picto.png'; ?>" alt="Téléphone pictogramme">
-                    <a href="mailto:contact@centreauto87.fr" target="_blank">
-                        contact@centreauto87.fr
+                    <img class="picto" src="<?= get_home_url() . '/wp-content/themes/twentytwentyone-child/assets/images/pictos/email-picto.png'; ?>" alt="Email pictogramme">
+                    <a href="mailto:contact@techaddict.fr" target="_blank">
+                        contact@techaddict.fr
                     </a>
                 </p>
-                <p><img class="picto" src="<?= get_home_url() . '/wp-content/themes/twentytwentyone-child/assets/images/pictos/phone-picto.png'; ?>" alt="Email pictogramme"><span><a href="tel:+33645450198">06 45 45 01 98</a> • <a href="tel:+33667427139">06 67 42 71 39</a></span></p>
+                <p><img class="picto" src="<?= get_home_url() . '/wp-content/themes/twentytwentyone-child/assets/images/pictos/phone-picto.png'; ?>" alt="Téléphone pictogramme"><span><a href="tel:+33555434355">05 55 43 43 55</a></span></p>
             </div>
         </div>
     </div>
