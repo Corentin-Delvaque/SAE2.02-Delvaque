@@ -80,7 +80,11 @@ section {
   justify-content: center;
   align-items: center;
   z-index: 1;
-  bottom: 35px;
+  bottom: 150px;
+  .website-logo {
+    max-height: 100px;
+    background-color: var(--clr-background);
+  }
 }
 
 .banner.homepage {

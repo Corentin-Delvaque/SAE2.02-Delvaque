@@ -29,6 +29,7 @@
         <?php if (is_archive()) : ?>
             <h1 class="banner-title"><span class="highlight">Nos logiciels</span></h1>
         <?php elseif (is_front_page()) : ?>
+            <img class="website-logo" src="<?= esc_url( wp_get_attachment_image_src( get_theme_mod( 'custom_logo' ), 'full' )[0] ); ?>" alt="Logo">
             <h1 class="banner-title"><span class="highlight"><?= get_bloginfo('name'); ?></span></h1>
             <h2 class="banner-subtitle"><span class="highlight"><?= get_bloginfo('description'); ?></span></h2>
         <?php elseif (is_404()) : ?>
