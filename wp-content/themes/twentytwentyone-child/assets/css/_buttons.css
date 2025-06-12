@@ -1,6 +1,4 @@
 #content .button-primary,
-#content .button-secondary,
-#content .button-tertiary,
 .pagination .page-numbers,
 .contact-form-section .wpforms-submit-container .wpforms-submit {
   display: inline-flex;
@@ -51,32 +49,6 @@
   background-color: var(--clr-blue);
 }
 
-#content .button-orange.button-primary {
-  border-color: var(--clr-transparent);
-  color: var(--clr-white);
-  background-color: var(--clr-orange);
-}
-
-#content .button-orange.button-primary:hover {
-  transform: translate(5px, -5px);
-  background-color: var(--clr-white);
-  color: var(--clr-orange);
-  box-shadow: -5px 5px 0 var(--clr-orange);
-}
-
-#content .button-green.button-primary {
-  border-color: var(--clr-transparent);
-  color: var(--clr-white);
-  background-color: var(--clr-green);
-}
-
-#content .button-green.button-primary:hover {
-  transform: translate(5px, -5px);
-  background-color: var(--clr-white);
-  color: var(--clr-green);
-  box-shadow: -5px 5px 0 var(--clr-green);
-}
-
 .pagination .page-numbers.prev,
 .pagination .page-numbers.next,
 .pagination .page-numbers.current {
@@ -91,12 +63,6 @@
 
 .page-numbers:not(.dots):hover {
   border-color: 2px solid var(--clr-black);
-}
-
-#content .button-blue.button-tertiary {
-  color: var(--clr-blue);
-  background-color: var(--clr-transparent);
-  border-color: var(--clr-transparent);
 }
 
 .pagination .page-numbers {

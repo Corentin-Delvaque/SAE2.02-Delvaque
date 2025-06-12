@@ -10,12 +10,15 @@ Template Name: Contact
     <div class="wrapper">
         <div class="contact-infos">
             <a class="contact-info" href="mailto:contact@centreauto87.fr" target="_blank">
-                <img src="<?= get_home_url() . '/wp-content/themes/twentytwentyone-child/assets/images/pictos/email-picto.png'; ?>" alt="Téléphone">contact@techaddict.fr
+                <img src="<?= get_home_url() . '/wp-content/themes/twentytwentyone-child/assets/images/pictos/email-picto.png'; ?>" alt="Email">
+                contact@techaddict.fr
             </a>
-            <div class="contact-info">
-                <img src="<?= get_home_url() . '/wp-content/themes/twentytwentyone-child/assets/images/pictos/phone-picto.png'; ?>" alt="Email">
-                <a href="tel:+33555434355">05 55 43 43 55</a>
-            </div>
+
+            <a class="contact-info" href="tel:+33555434355" target="_blank">
+                <img src="<?= get_home_url() . '/wp-content/themes/twentytwentyone-child/assets/images/pictos/phone-picto.png'; ?>" alt="Téléphone">
+                05 55 43 43 55
+            </a>
+
             <a class="contact-info" href="https://maps.app.goo.gl/PkdczCWdH2p4xcaMA" target="_blank">
                 <img src="<?= get_home_url() . '/wp-content/themes/twentytwentyone-child/assets/images/pictos/location-picto.png'; ?>" alt="Adresse">
                 12 All. André Maurois <br> 87065 Limoges

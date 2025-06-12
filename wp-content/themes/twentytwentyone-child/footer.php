@@ -21,12 +21,12 @@
         <div class="wrapper">
             <div class="left-website-infos">
                 <a href="<?= get_site_url(); ?>" class="website-infos">
-                    <img class="website-logo left-website-infos" src="<?= esc_url( wp_get_attachment_image_src( get_theme_mod( 'custom_logo' ), 'full' )[0] ); ?>" alt="">
+                    <img class="website-logo left-website-infos" src="<?= esc_url( wp_get_attachment_image_src( get_theme_mod( 'custom_logo' ), 'full' )[0] ); ?>" alt="Logo">
                         <h2 class="website-title uppercase"><?= get_bloginfo('name'); ?></h2>
                 </a>
             </div>
             <div class="right-website-infos">
-                <p><img class="picto" src="<?= get_home_url() . '/wp-content/themes/twentytwentyone-child/assets/images/pictos/location-picto.png'; ?>" alt="Email pictogramme">
+                <p><img class="picto" src="<?= get_home_url() . '/wp-content/themes/twentytwentyone-child/assets/images/pictos/location-picto.png'; ?>" alt="Location pictogramme">
                     <a href="https://maps.app.goo.gl/PkdczCWdH2p4xcaMA" target="_blank">12 All. André Maurois, 87065 Limoges</a>
                 </p>
                 <p>

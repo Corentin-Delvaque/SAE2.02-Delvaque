@@ -22,30 +22,22 @@ section {
   color: var(--clr-white);
   position: relative;
   z-index: 1;
-  text-shadow: 0 10px 50px var(--clr-black);
 }
 
 .banner-title {
+  display: flex;
+  max-width: 50%;
   font-size: var(--fs-big-title);
   font-weight: 700;
   text-transform: none;
   color: var(--clr-blue);
   text-shadow: var(--clr-blue-tranparent) 2px 5px;
   margin-bottom: 20px;
-}
-
-.banner-subtitle {
-  font-size: var(--fs-small-title);
-  font-weight: 500;
-  text-transform: none;
-  line-height: 1.65;
-  color: var(--clr-blue);
-  text-shadow: var(--clr-blue-tranparent) 2px 5px;
-  margin-bottom: 20px;
+  text-align: center;
 }
 
 .highlight {
-  padding: 5px 10px;
+  padding: 10px 15px;
   background-color: var(--clr-background);
 }
 
@@ -69,18 +61,10 @@ section {
   filter: saturate(0.5) blur(5px);
 }
 
-.banner::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background-color: var(--clr-black);
-  opacity: 0.5;
-}
-
 .banner .wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   z-index: 1;
 }
 
@@ -162,6 +146,7 @@ section {
 
 .image-decoration iframe {
   position: relative;
+  min-width: 100%;
   max-width: 500px;
   object-fit: cover;
 }

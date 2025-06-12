@@ -27,10 +27,9 @@
 
     <div class="wrapper">
         <?php if (is_archive()) : ?>
-            <h1 class="banner-title"><span class="highlight">Nos voitures</span></h1>
+            <h1 class="banner-title"><span class="highlight">Nos logiciels</span></h1>
         <?php elseif (is_front_page()) : ?>
-            <h1 class="banner-title"><span class="highlight"><?= get_bloginfo('name'); ?></span></h1>
-            <h2 class="banner-subtitle"><span class="highlight"><?= get_bloginfo('description'); ?></span></h2>
+            <h1 class="banner-title"><span class="highlight"><?= get_bloginfo('description'); ?></span></h1>
         <?php elseif (is_404()) : ?>
             <h1 class="banner-title"><span class="highlight">Page introuvable</span></h1>
         <?php else : ?>
