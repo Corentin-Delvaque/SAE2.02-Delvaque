@@ -11,8 +11,8 @@ Template Name: Accueil
         <div class="page">
             <div class="left-section">
                 <h2>Découvrez CoMove en vidéo !</h2>
-                <p>Comment bouger plus au bureau, sans matériel ni contraintes ?</p>
-                <p>Cette vidéo vous présente CoMove, l’application pensée pour transformer vos pauses en moments d’énergie, de lien et de bien-être.</p>
+                <p>Comment rester actif au bureau, sans matériel ni contraintes ?</p>
+                <p>CoMove, l’application conçue Pour les coworker d'Héméra, vous aide à transformer vos pauses en instants d’énergie, de cohésion et de bien-être. Découvrez comment elle s’intègre naturellement dans le quotidien des équipes.</p>
                 <a href="https://www.youtube.com/embed/DCIM6n2Bqyg?si=FdrEcnvz6xAk_RC_" class="button-primary button-blue">Voir la vidéo</a>
             </div>
             <div class="right-section">
@@ -31,10 +31,10 @@ Template Name: Accueil
         <div class="page">
             <div class="left-section">
                 <h2>Notre nouvelle initiative pour le bien-être au travail !</h2>
-                <p>Tech’Addict présente CoMove, une application mobile innovante pour lutter contre la sédentarité au bureau.</p>
-                <p>Pensée pour les professionnels, cette solution transforme vos pauses en moments de mouvement, de cohésion et de bonne humeur.</p>
+                <p>Tech’Addict lance CoMove : une application mobile pensée pour lutter efficacement contre la sédentarité en entreprise.</p>
+                <p>Conçue pour les professionnels d'Héméra, CoMove transforme chaque pause en un moment simple, ludique et revitalisant, favorisant l'engagement collectif et le bien-être quotidien.</p>
                 <p>Explorez cette nouveauté dans notre communiqué de presse et découvrez comment 15 minutes par jour peuvent faire toute la différence.</p>
-                <a href="<?= get_home_url() . '/wp-content/themes/twentytwentyone-child/assets/images/fichier/communique_de_presse.pdf'; ?>" download target="_blank" class="button-primary button-blue">communique de presse</a>
+                <a href="<?= get_home_url() . '/wp-content/themes/twentytwentyone-child/assets/images/fichier/communique_de_presse.pdf'; ?>" download target="_blank" class="button-primary button-blue">Télécharger le communiqué</a>
             </div>
             <div class="right-section">
                 <div class="image-decoration">
@@ -51,9 +51,39 @@ Template Name: Accueil
     <div class="wrapper">
         <div class="page-column">
             <div class="left-section">
-                <h2>Jetez un œil à CoMove en action !</h2>
+                <h2>Jetez un œil à l'application CoMove !</h2>
             </div>
             <?php echo do_shortcode( '[carousel_slide id="37"]' ); ?>
+        </div>
+    </div>
+</section>
+
+<div class="section-separator"></div>
+
+<section class="image-decoration-section">
+    <div class="wrapper">
+        <div class="left-section">
+            <h2>Les avis de nos utilisateurs !</h2>
+        </div>
+        <div class="testimonials-section light">
+            <div class="testimonial-wrapper">
+                <img src="<?= get_home_url() . '/wp-content/uploads/2025/06/Face-1.jpeg'; ?>" alt="Portrait de Wade." class="testimonial-photo">
+                <div class="testimonial-text">
+                    <blockquote class="testimonial-quote">Franchement, j’étais pas convaincu au départ, mais l’appli m’a surpris. Elle motive bien, surtout avec les défis entre collègues, et crée une bonne ambiance chez Héméra.</blockquote>
+                    <p class="testimonial-author">Wade K. Guerra
+                        <span>Développeur</span>
+                    </p>
+                </div>
+            </div>
+            <div class="testimonial-wrapper">
+                <img src="<?= get_home_url() . '/wp-content/uploads/2025/06/Face-2-1.jpg'; ?>" alt="Portrait de Leone." class="testimonial-photo">
+                <div class="testimonial-text">
+                    <blockquote class="testimonial-quote">Je ne m’attendais pas à ce que ça me plaise autant. L’appli est super simple à utiliser, et ce que j’adore, c’est l’esprit de communauté qu’elle crée chez Héméra.</blockquote>
+                    <p class="testimonial-author">Leone Dennis
+                        <span>Designer</span>
+                    </p>
+                </div>
+            </div>
         </div>
     </div>
 </section>

@@ -42,7 +42,7 @@
     <div class="legals-section-footer">
         <div class="wrapper">
             <div class="legals-links">
-                <?php wp_nav_menu(['theme_location'=>'legals']); ?>
+                <p>Corentin Delvaque © Tous droits réservés.</p>
             </div>
         </div>
     </div>

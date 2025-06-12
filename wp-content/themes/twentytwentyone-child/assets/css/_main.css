@@ -26,6 +26,20 @@ section {
 
 .banner-title {
   display: flex;
+  min-width: 245px;
+  max-width: 50%;
+  font-size: var(--fs-very-big-title);
+  font-weight: 700;
+  text-transform: none;
+  color: var(--clr-blue);
+  text-shadow: var(--clr-blue-tranparent) 2px 5px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.banner-subtitle {
+  display: flex;
+  min-width: 245px;
   max-width: 50%;
   font-size: var(--fs-big-title);
   font-weight: 700;
@@ -66,6 +80,7 @@ section {
   justify-content: center;
   align-items: center;
   z-index: 1;
+  bottom: 35px;
 }
 
 .banner.homepage {
@@ -238,7 +253,6 @@ section {
 }
 
 .testimonials-section {
-  background-color: var(--clr-very-light-grey);
   display: flex;
   flex-direction: column;
   gap: 80px;
@@ -372,10 +386,34 @@ section {
   margin-right: 25px;
 }
 
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
 .carousel-slider__item {
   overflow: hidden;
   border-radius: 25px;
   border: 2px solid var(--clr-blue);
+  gap: 20px;
+}
+
+.caption {
+  padding-bottom: 10px;
+}
+
+.carousel-slider__item img {
+  margin-bottom: 20px;
+  width: 100%;
+  height: auto;
+}
+
+.carousel-slider__item .title {
+  font-size: var(--fs-very-big-title);
+  color: var(--clr-blue);
 }
 
 .swiper-button-prev {
@@ -384,6 +422,63 @@ section {
 
 .swiper-button-next {
   border-radius: 50%;
+}
+
+.testimonials-section.light {
+  color: #1c1c1c;
+  padding: 8vh 6vw 0vh 6vw;
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+.testimonial-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  background-color: #fcfcfa;
+  border-radius: 50px;
+  padding: 1rem;
+  max-width: 960px;
+  flex-direction: column;
+  text-align: center;
+}
+
+.testimonial-photo {
+  width: 96px;
+  height: 96px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid #ddd;
+  box-shadow: 0 0 0 1px #eee;
+}
+
+.testimonial-text {
+  max-width: 600px;
+}
+
+.testimonial-quote {
+  font-size: 1.25rem;
+  font-weight: 300;
+  line-height: 1.6;
+  margin-bottom: 1.25rem;
+}
+
+.testimonial-author {
+  font-weight: 500;
+  font-size: 1rem;
+  color: #555;
+}
+
+.testimonial-author span {
+  font-weight: 400;
+  color: #999;
+  display: block;
+  margin-top: 0.25rem;
+}
+
+.transparent {
+  display: none;
 }
 
 .error404 main p {

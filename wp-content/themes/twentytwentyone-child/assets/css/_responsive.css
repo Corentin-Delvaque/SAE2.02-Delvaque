@@ -380,8 +380,7 @@
   }
 
   .testimonials-section {
-    background-size: 200px, 200px;
-    background-position: top 100px left 10%, bottom 50px right 10%;
+    flex-direction: column;
   }
 
   .cars-card img {
@@ -421,6 +420,15 @@
 
   .archive.cars-section {
     background-size: 500px;
+  }
+
+  .testimonial-photo {
+    width: 112px;
+    height: 112px;
+  }
+
+  .testimonial-quote {
+    font-size: 1.75rem;
   }
 }
 

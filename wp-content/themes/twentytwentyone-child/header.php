@@ -35,8 +35,6 @@
 		?>
 	</a>
 
-	<?php get_template_part( 'template-parts/header/site-header' ); ?>
-
     <?php include('template-parts/banneer/banner.php'); ?>
 
 	<div id="content" class="site-content">
